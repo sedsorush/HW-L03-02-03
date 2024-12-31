@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 0 30px;
+
+    height: 60px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+    ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+
+        a {
+            color: #717171;
+            text-decoration: none;
+            
+
+            &:hover {
+                color: #2e2e2e;
+                text-shadow: 0 0 2px #2e2e2e;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
